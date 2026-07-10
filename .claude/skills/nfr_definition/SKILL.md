@@ -38,7 +38,7 @@ NFR: API latency
 metric: p95 response time for read endpoints
 target: < 200 ms
 condition: at 500 concurrent users, steady state
-rationale: editor autosave must feel instant (PRD Autosave)
+rationale: application autosave must feel instant (PRD Autosave)
 ```
 
 ## Cover the attributes that matter here

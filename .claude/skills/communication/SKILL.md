@@ -108,7 +108,7 @@ impact: <what stays stalled until this is resolved>
 ```
 BLOCKED
 from: frontend-developer
-task: Build the editor toolbar component
+task: Build the application toolbar component
 blocker: No visual spec for the toolbar's icon set or spacing.
 needed_from: ux-ui-designer
 impact: Toolbar UI cannot start; downstream QA of the toolbar is also stalled.

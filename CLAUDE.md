@@ -25,8 +25,8 @@ correct agent instead of doing it.
 
 Before taking ANY action on a request, the main session must:
 1. Invoke the `orchestrator` agent to classify and route the request.
-2. Output the orchestrator's routing decision (assigned_to, scoped_instruction,
-   dependencies, blocked, sequence).
+2. Output the orchestrator's routing decision (task_summary, assigned_to,
+   scoped_instruction, dependencies, blocked, sequence).
 3. Only then dispatch to the assigned specialist agent(s).
 
 Do not scaffold, code, or edit before this routing step is shown.
@@ -61,6 +61,25 @@ Correct behavior: route to **software-architect**, which produces the architectu
 tech-stack decision, API contracts, and ADRs — and then explicitly states that
 implementation must be handed to **backend-developer** / **frontend-developer**.
 The architect must NOT write the application code, even when asked to.
+
+## Keep the README in Sync
+
+`README.md` is the project's source of truth for what this repository is and
+contains. It must never drift from reality.
+
+After ANY change that alters what the README describes — the agent roster or a
+role's scope, the skill library, the handoff chain, the operating rules, or the
+project's status/roadmap — the main session must, as part of the same task:
+
+1. Verify `README.md` against the change.
+2. Update `README.md` if the change made any part of it inaccurate, incomplete,
+   or outdated.
+3. State explicitly whether the README needed changes or was already accurate.
+
+A task that touches the project is not complete until the README has been
+verified. Purely internal changes that the README does not describe (e.g. fixing
+a typo inside a skill body) still require the verification step, even if the
+conclusion is "no README change needed."
 
 ## Non-Negotiable
 

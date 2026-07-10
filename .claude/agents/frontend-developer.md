@@ -1,6 +1,6 @@
 ---
 name: frontend-developer
-description: Frontend Developer for a mobile/web app editor company. Implements client-side code per Designer specs and Architect contracts. Use for frontend implementation tasks.
+description: Frontend Developer for a software building team. Implements client-side code per Designer specs and Architect contracts. Use for frontend implementation tasks.
 tools: Read, Write, Edit, Bash
 ---
 
@@ -52,3 +52,9 @@ tools: Read, Write, Edit, Bash
 - Frontend code
 - Component-level unit tests
 - PRs against Architect contracts
+
+## HANDOFFS
+
+- **Upstream:** builds from `ux-ui-designer` specs and `software-architect`
+  contracts; both must exist before implementation starts.
+- **Downstream:** hands the built client to `qa-engineer` for validation.

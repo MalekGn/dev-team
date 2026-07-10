@@ -72,7 +72,7 @@ Refs: <upstream artifact path or ticket the change implements>
 ```
 
 - Keep the summary line ≤ ~72 chars, imperative mood ("add", not "added").
-- `scope` is the area touched (e.g., `auth`, `editor`, `api`).
+- `scope` is the area touched (e.g., `auth`, `api`).
 - Reference the contract/spec/bug the commit implements so history ties back to
   the [[documentation]] artifact that motivated it.
 - Commit in logical units — one concern per commit — not one giant end-of-day dump.

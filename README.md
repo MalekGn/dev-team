@@ -1,13 +1,14 @@
 # dev-team
 
-A role-scoped AI agent team for a mobile/web app editor company. This repository
-defines a fixed set of specialist agents and the operating rules that coordinate
-them, so that product work flows through a disciplined, single-responsibility
-pipeline instead of an ad-hoc, do-everything assistant.
+A role-scoped AI agent team for building software products. This repository
+defines a fixed set of specialist agents, a shared skill library, and the
+operating rules that coordinate them, so that product work flows through a
+disciplined, single-responsibility pipeline instead of an ad-hoc, do-everything
+assistant.
 
 ## Purpose
 
-Building a mobile/web app editor product involves distinct disciplines —
+Building a software product involves distinct disciplines —
 product, design, architecture, implementation, and quality. This project encodes
 those disciplines as separate agents with exclusive scopes and a mandatory
 handoff chain. The goals are:
@@ -54,6 +55,26 @@ product-manager → (ux-ui-designer + software-architect) → (frontend-develope
 The full operating rules are defined in [`CLAUDE.md`](./CLAUDE.md), and each
 agent's exclusive scope is defined in [`.claude/agents/`](./.claude/agents/).
 
+## Skill Library
+
+Each agent draws on a role-scoped library of skills in
+[`.claude/skills/`](./.claude/skills/) — reusable playbooks for the recurring
+work each discipline does (e.g. `requirement_analysis`, `api_contract_design`,
+`test_planning`). A skill is consulted before the work it governs so the output
+follows an explicit, repeatable standard instead of being improvised each time.
+
+Four skills are **shared** across roles and define how the team works together:
+
+- **communication** — the message format for every cross-role handoff, status,
+  blocker, refusal, and question.
+- **documentation** — the standard for durable artifacts a downstream role reads.
+- **version_control** — how branches, commits, and PRs are named and scoped
+  (read/write for developers and QA; read-only for the architect).
+- **estimation** — one consistent way to size work across roles.
+
+Every other skill maps to exactly one owning agent; each agent file lists the
+skills it owns under `## SKILLS`.
+
 ## Roadmap / Status
 
 **Current status:** Foundation stage. The repository currently contains the
@@ -62,7 +83,7 @@ handoff chain). No product application has been built yet.
 
 **Planned / upcoming:**
 
-- Product definition — PRDs, backlog, and prioritized roadmap for the app editor
+- Product definition — PRDs, backlog, and prioritized roadmap for the app
   (owned by product-manager).
 - Design — user flows, wireframes, and design system (owned by ux-ui-designer).
 - Architecture — system design, tech stack, API contracts, and data models
