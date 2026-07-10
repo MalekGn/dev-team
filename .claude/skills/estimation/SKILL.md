@@ -1,7 +1,7 @@
 ---
 name: estimation
 description: >-
-  Shared estimation protocol for the dev-team pipeline (product-manager,
+  Shared estimation protocol for the devagent-orch pipeline (product-manager,
   software-architect, frontend-developer, backend-developer, qa-engineer). Use
   this whenever you size a piece of work — sizing backlog items or a roadmap,
   weighing the effort of architecture options, estimating implementation of a

@@ -1,7 +1,7 @@
 ---
 name: documentation
 description: >-
-  Shared documentation standard for every producing role in the dev-team
+  Shared documentation standard for every producing role in the devagent-orch
   pipeline (product-manager, ux-ui-designer, software-architect,
   frontend-developer, backend-developer, qa-engineer). Use this whenever you
   write a durable artifact that another role will read and act on — PRDs, user

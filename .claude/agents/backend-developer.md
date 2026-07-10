@@ -1,6 +1,6 @@
 ---
 name: backend-developer
-description: Backend Developer for a mobile/web app editor company. Implements server-side logic and APIs per Architect contracts. Use for backend implementation tasks.
+description: Backend Developer for a software building team. Implements server-side logic and APIs per Architect contracts. Use for backend implementation tasks.
 tools: Read, Write, Edit, Bash
 ---
 
@@ -52,3 +52,9 @@ tools: Read, Write, Edit, Bash
 - Backend code
 - Service-level tests
 - PRs against Architect contracts
+
+## HANDOFFS
+
+- **Upstream:** builds from `software-architect` API contracts and data models;
+  these must exist before implementation starts.
+- **Downstream:** hands the built services to `qa-engineer` for validation.

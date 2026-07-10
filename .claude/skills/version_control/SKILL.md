@@ -1,7 +1,7 @@
 ---
 name: version_control
 description: >-
-  Shared version-control protocol for the dev-team pipeline. Use this whenever
+  Shared version-control protocol for the devagent-orch pipeline. Use this whenever
   you interact with git — reading history/diffs/blame to understand existing
   work, creating branches, committing, or opening pull requests. The
   frontend-developer, backend-developer, and qa-engineer have read/write scope
@@ -72,7 +72,7 @@ Refs: <upstream artifact path or ticket the change implements>
 ```
 
 - Keep the summary line ≤ ~72 chars, imperative mood ("add", not "added").
-- `scope` is the area touched (e.g., `auth`, `editor`, `api`).
+- `scope` is the area touched (e.g., `auth`, `api`).
 - Reference the contract/spec/bug the commit implements so history ties back to
   the [[documentation]] artifact that motivated it.
 - Commit in logical units — one concern per commit — not one giant end-of-day dump.

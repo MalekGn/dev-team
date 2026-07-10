@@ -1,7 +1,7 @@
 ---
 name: communication
 description: >-
-  Shared communication protocol for every agent in the dev-team pipeline
+  Shared communication protocol for every agent in the devagent-orch pipeline
   (product-manager, ux-ui-designer, software-architect, frontend-developer,
   backend-developer, qa-engineer, orchestrator). Use this whenever you need to
   hand off work to another role, report status or results, flag a blocker,
@@ -108,7 +108,7 @@ impact: <what stays stalled until this is resolved>
 ```
 BLOCKED
 from: frontend-developer
-task: Build the editor toolbar component
+task: Build the application toolbar component
 blocker: No visual spec for the toolbar's icon set or spacing.
 needed_from: ux-ui-designer
 impact: Toolbar UI cannot start; downstream QA of the toolbar is also stalled.

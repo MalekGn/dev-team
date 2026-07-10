@@ -54,7 +54,7 @@ Flow: New user creates first project
 1. Empty dashboard (empty state) → [Create project] CTA
 2. Project setup screen → name + template
    - branch: no template chosen → default blank template
-3. Editor opens with starter content (success)
+3. App opens with starter content (success)
    - error: creation fails → inline error + retry, user stays on setup
 Exits: Cancel on step 2 → back to empty dashboard
 ```

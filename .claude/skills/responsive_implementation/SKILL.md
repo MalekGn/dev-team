@@ -12,7 +12,7 @@ description: >-
 
 # Responsive Implementation
 
-This is a mobile/web app editor — the same UI has to work on a phone and a wide
+This is a mobile/web app — the same UI has to work on a phone and a wide
 desktop, so responsiveness isn't a finishing touch, it's structural. Layouts that
 assume one width break the moment the viewport changes, and retrofitting
 responsiveness screen by screen afterward is far more work than building fluid
