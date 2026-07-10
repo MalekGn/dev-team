@@ -1,7 +1,7 @@
 ---
 name: communication
 description: >-
-  Shared communication protocol for every agent in the dev-team pipeline
+  Shared communication protocol for every agent in the devagent-orch pipeline
   (product-manager, ux-ui-designer, software-architect, frontend-developer,
   backend-developer, qa-engineer, orchestrator). Use this whenever you need to
   hand off work to another role, report status or results, flag a blocker,

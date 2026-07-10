@@ -1,7 +1,7 @@
 ---
 name: version_control
 description: >-
-  Shared version-control protocol for the dev-team pipeline. Use this whenever
+  Shared version-control protocol for the devagent-orch pipeline. Use this whenever
   you interact with git — reading history/diffs/blame to understand existing
   work, creating branches, committing, or opening pull requests. The
   frontend-developer, backend-developer, and qa-engineer have read/write scope

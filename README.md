@@ -1,4 +1,4 @@
-# dev-team
+# devagent-orch
 
 A role-scoped AI agent team for building software products. This repository
 defines a fixed set of specialist agents, a shared skill library, and the
