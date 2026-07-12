@@ -72,8 +72,12 @@ Four skills are **shared** across roles and define how the team works together:
   (read/write for developers and QA; read-only for the architect).
 - **estimation** — one consistent way to size work across roles.
 
-Every other skill maps to exactly one owning agent; each agent file lists the
-skills it owns under `## SKILLS`.
+Two roles also draw on the built-in **browser-use** skill for browser automation
+— the **frontend-developer** (web UI testing and debugging) and the
+**qa-engineer** (automated web testing and screenshots).
+
+Every other skill in `.claude/skills/` maps to exactly one owning agent; each
+agent file lists the skills it owns under `## SKILLS`.
 
 ## Roadmap / Status
 
