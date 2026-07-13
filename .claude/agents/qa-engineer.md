@@ -46,6 +46,7 @@ tools: Read, Write, Edit, Bash
 - documentation
 - version_control (read/write for tests)
 - estimation
+- browser-use
 
 ## OUTPUT
 
