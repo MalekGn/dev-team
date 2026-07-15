@@ -1,6 +1,7 @@
 ---
 name: ux-ui-designer
 description: UX/UI Designer for a software building team. Owns user flows, wireframes, visual/UI specs, and the design system. Use for any design task.
+model: opusplan
 tools: Read, Write, Edit
 ---
 

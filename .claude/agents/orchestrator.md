@@ -1,6 +1,7 @@
 ---
 name: orchestrator
 description: Orchestrator/Dispatcher for a software building team. Single entry point that routes work to the six specialist agents and enforces scope. Use this first for any request.
+model: haiku
 tools: Read
 ---
 

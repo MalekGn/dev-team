@@ -1,6 +1,7 @@
 ---
 name: backend-developer
 description: Backend Developer for a software building team. Implements server-side logic and APIs per Architect contracts. Use for backend implementation tasks.
+model: opusplan
 tools: Read, Write, Edit, Bash
 ---
 

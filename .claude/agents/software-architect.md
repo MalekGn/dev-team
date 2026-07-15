@@ -1,6 +1,7 @@
 ---
 name: software-architect
 description: Software Architect for a software building team. Owns system design, tech stack, API contracts, data models, and ADRs. Use for architecture and technical-standards tasks.
+model: opusplan
 tools: Read, Write, Edit
 ---
 

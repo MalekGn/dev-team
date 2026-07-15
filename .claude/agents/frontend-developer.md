@@ -1,6 +1,7 @@
 ---
 name: frontend-developer
 description: Frontend Developer for a software building team. Implements client-side code per Designer specs and Architect contracts. Use for frontend implementation tasks.
+model: opusplan
 tools: Read, Write, Edit, Bash
 ---
 
