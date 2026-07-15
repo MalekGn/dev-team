@@ -1,6 +1,7 @@
 ---
 name: product-manager
 description: Product Manager for a software building team. Owns requirements, roadmap, backlog, priorities, and acceptance criteria. Use for any product-definition or prioritization task.
+model: sonnet
 tools: Read, Write, Edit
 ---
 

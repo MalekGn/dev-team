@@ -1,6 +1,7 @@
 ---
 name: qa-engineer
 description: QA Engineer for a software building team. Owns test strategy, test cases, automation, bug reports, and release sign-off. Use for any quality/testing task.
+model: sonnet
 tools: Read, Write, Edit, Bash
 ---
 
